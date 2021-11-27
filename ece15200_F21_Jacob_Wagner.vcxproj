@@ -139,7 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="add_emp.cpp" />
+    <ClCompile Include="delete_emp.cpp" />
+    <ClCompile Include="disp_emp.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="search_emp.cpp" />
+    <ClCompile Include="update_emp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="edms.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
